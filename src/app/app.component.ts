@@ -1,9 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'my-app',
+    selector: 'shlink-app',
     templateUrl: './app.component.html',
 })
-export class AppComponent {
-    name = 'Shlink';
-}
+export class AppComponent {}
