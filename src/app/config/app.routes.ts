@@ -5,10 +5,10 @@ import {HomeComponent} from '../home/home.component';
 export const appRoutes: Route[] = [
     {
         path: '',
-        component: HomeComponent
+        component: HomeComponent,
     },
     {
         path: 'server/create',
-        component: CreateServerComponent
+        component: CreateServerComponent,
     }
 ];

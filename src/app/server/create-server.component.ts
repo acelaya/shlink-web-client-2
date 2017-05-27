@@ -2,6 +2,12 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'create-server',
-    template: `<h1>Create server</h1>`,
+    templateUrl: './create-server.component.html',
 })
-export class CreateServerComponent {}
+export class CreateServerComponent {
+    server: any = {};
+
+    public saveNewServer() {
+        console.log(this.server);
+    }
+}
